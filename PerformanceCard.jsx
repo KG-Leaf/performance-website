@@ -1,0 +1,1 @@
+import React from 'react';export default function PerformanceCard({title,score,total,percentage}){return(<div className='card'><h3>{title}</h3><p>Score:{score}</p><p>Total:{total}</p><h2>{typeof percentage==='number'?percentage.toFixed(2)+'%':percentage}</h2></div>);}

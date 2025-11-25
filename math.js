@@ -1,0 +1,1 @@
+export function percent(o,t){o=Number(o);t=Number(t);if(!t)return 0;return(o/t)*100;}

@@ -1,0 +1,1 @@
+function calculatePercentage(obtained,total){if(total===0)return 0;return(obtained/total)*100;}module.exports={calculatePercentage};
